@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /userimg/
+
+Disallow: /Common/
+
+Disallow: /Lib/
+
+Disallow: /C/
+
+Disallow: /M/
+
+Disallow: /v1mang/
+
+Allow: /v1/

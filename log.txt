@@ -1,0 +1,68 @@
+第一天
+1、建了两张表  news和user
+2、新建了index.php 
+3、项目域名 shenyi.com  hosts 
+
+
+第二天：
+1、下载了 NotORM
+2、开启了mysql_pdo
+3、测试了NotOrm单表操作
+4、NotOrm的官方地址是http://www.notorm.com/#examples
+5、建了响应配置项。如数据库用户名和密码,DSN等
+
+第三天：
+1、建立目录结构，包含
+ 1）M 放置Model 主要和数据对象进行映射  后缀 .m
+ 2)C 全站控制文件,譬如取数据源 判断参数来执行业务逻辑  后缀.c
+ 3) V .就是美工干的静态页面 后缀： .tpl 目前使用的是v1版本
+
+第四天
+1、建立C的主文件_Main.c 
+2、然后子C都必须继承_Main.c
+3、建立2个母版饭方法
+  1) setViewName  设置需要加载的业务模板
+  2) addObject   设置需要加载的变量 （这里用到了 php extract 函数)
+4、_Main.c 拥有run方法。执行MVC架构所有事宜
+
+第五天
+1、加入了memcahed ，实现了页面数据缓存
+2、实现了简单的Model ,和NotOrm进行了交互
+
+第六天
+1、完成单变量
+2、完成循环变量解析
+3、加入自定义函数功能
+4、完成了include方法
+
+第七天
+1、引入bootstrap
+2、实现商品列表UI原型
+3、体验了bootstrap 脚本功能
+4、引入了showDialog.js
+
+第八天
+1、实现用户登录
+2、用户登录实体类 在lib ->user->userinfo.php
+3、用户登录信息最大保存7天。默认不保存
+4、cookie使用对称加密。 密钥是 UserLogin_CryptKey
+5、用户注销功能完成 
+
+<li>
+							<a href="index.php?control=devloperC&action=uploadGame">上传游戏</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">开发者<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="index.php?control=devloperC&action=dev_p">个人开发者</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="index.php?control=devloperC&action=corporation">企业开发者</a>
+								</li>
+								
+							</ul>
+						</li>
+

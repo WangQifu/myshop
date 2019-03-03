@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+.lottery_wrap
+{
+	width: 100%;
+	height: 80px;
+	border: 1px solid white;
+	border-right: 10px;
+	margin: 0 auto;
+	background: #dacfcd;
+	position: relative;
+	margin-top: 5px;
+}
+.lottery_wrap2
+{
+	width: 100%;
+	height: 80px;
+	border: 1px solid white;
+	border-right: 10px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 5px;
+}
+.lottery_wrap3
+{
+	width: 100%;
+	height: 120px;
+	border: 1px solid white;
+	border-right: 10px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 5px;
+}
+
+p {
+	width: 30px;
+	height: 30px;
+	margin: 45px 1px;
+	background: red;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	font-size: 1.0em;
+	color: white;
+}
+#pb{
+	background: blue;
+}
+h2{
+	text-align: center;
+}
+#checkBall{
+    position: absolute;
+	top: 5px;
+	height: 30px;
+	font-size: 1.0em;
+	border-radius: 5px; 
+}
+.caipiao{
+	margin:0 auto;
+}
+
+.predNum
+{
+	width: 30px;
+	height: 30px;
+	margin: 5px 2px;
+	background: white;
+	border: 2px solid #ff0000;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	font-size: 1.2em;
+	color: red;
+}
+.pblueNum
+{
+	width: 30px;
+	height: 30px;
+	margin: 5px 2px;
+	background: white;
+	border: 2px solid #0000ff;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	font-size: 1.2em;
+	color: #0000ff;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+	float: left;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.fs_red_area {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+.fs_red_area li span, .fs_blue_area li span {
+    font-size: 14px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    display: block;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
